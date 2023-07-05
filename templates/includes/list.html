@@ -1,0 +1,5 @@
+<div>
+    {% for link in config.extra.links %}
+    <a class="element" href="{{ link.url | trim }}" rel="nofollow" target="_blank">{{ link.title | trim }}</a>
+    {% endfor %}
+</div>

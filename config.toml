@@ -14,3 +14,8 @@ highlight_code = false
 
 [extra]
 # Put all your custom variables here
+
+links = [
+  { title = "My homepage", url = "https://popov.link" },
+  { title = "My GIT server", url = "https://git.popov.link" },
+]
