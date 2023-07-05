@@ -16,6 +16,6 @@ highlight_code = false
 # Put all your custom variables here
 
 links = [
-  { title = "My homepage", url = "https://popov.link" },
-  { title = "My GIT server", url = "https://git.popov.link" },
+  { title = "My homepage & blog", url = "https://popov.link" },
+  { title = "My repositories", url = "https://git.popov.link" },
 ]
