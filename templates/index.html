@@ -1,28 +1,10 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<style>
-    html {
-        text-align: center;
-    }
-
-    .photo-wrapper {
-        margin: auto;
-        max-width: 128px;
-        max-height: 128px;
-    }
-
-    .photo {
-        border-radius: 50%;
-    }
-</style>
 
 <header>
-    <div class="photo-wrapper">
-        <img class="photo" src="/photo.jpg" alt="">
-    </div>
-
-    <h3>Valentin Popov</h3>
+    {% include 'includes/photo.html' %}
+    <h1>Valentin Popov</h1>
 </header>
 
 <section>

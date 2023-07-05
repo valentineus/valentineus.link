@@ -8,10 +8,20 @@
   margin: 1rem auto;
 }
 
+.photo-wrapper {
+  margin: auto;
+  max-height: 12em;
+  max-width: 12em;
+}
+
+.photo {
+  border-radius: 50%;
+}
+
 .social-wrapper {
   padding: 1em;
 }
 
-.social-link {
+.social {
   padding: 0 0.5em;
 }
